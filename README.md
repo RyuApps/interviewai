@@ -5,7 +5,8 @@ A macOS overlay app that listens to interview questions in real time and instant
 一款 macOS 浮窗应用，实时监听面试问题并即时展示你预先准备的答案。
 
 <p align="center">
-  <img src=".github/screenshot.png" alt="InterviewAI Screenshot" width="700">
+  <img src=".github/screenshot-interview.png" alt="Interview Mode" width="49%">
+  <img src=".github/screenshot-settings.png" alt="Settings" width="49%">
 </p>
 
 ## What is InterviewAI / 项目介绍
