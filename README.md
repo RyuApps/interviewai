@@ -4,6 +4,10 @@ A macOS overlay app that listens to interview questions in real time and instant
 
 一款 macOS 浮窗应用，实时监听面试问题并即时展示你预先准备的答案。
 
+<p align="center">
+  <img src=".github/screenshot.png" alt="InterviewAI Screenshot" width="700">
+</p>
+
 ## What is InterviewAI / 项目介绍
 
 InterviewAI captures audio during interviews (system audio from Zoom/Teams/Meet or microphone input), transcribes the interviewer's questions using Apple's Speech framework, and matches them against your pre-written prompt library. The best-matching answer is displayed in a transparent overlay window — always on top, always ready.
