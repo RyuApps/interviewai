@@ -35,11 +35,9 @@ InterviewAI 在面试过程中捕获音频（来自 Zoom/Teams/Meet 的系统音
 
 ## How It Works / 工作流程
 
-```
-┌─────────────┐    ┌──────────────┐    ┌───────────────┐    ┌─────────────┐
-│ Audio Input  │───▶│  Speech      │───▶│  N-gram/IDF   │───▶│  Overlay    │
-│ (System/Mic) │    │  Recognition │    │  Matching     │    │  Display    │
-└─────────────┘    └──────────────┘    └───────────────┘    └─────────────┘
+```mermaid
+flowchart LR
+    A["Audio Input\n(System/Mic)"] --> B["Speech\nRecognition"] --> C["N-gram/IDF\nMatching"] --> D["Overlay\nDisplay"]
 ```
 
 1. **Capture** — Audio is captured from system output (ScreenCaptureKit) or microphone
