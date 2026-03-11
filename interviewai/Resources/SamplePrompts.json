@@ -1,22 +1,22 @@
 [
   {
-    "title": "Self Introduction",
-    "content": "I am a software engineer with 5 years of experience in backend development, specializing in distributed systems and API design. I have worked on financial systems and e-commerce platforms, and I am passionate about building scalable, reliable software."
+    "title": "How do you handle conflicts with teammates?",
+    "content": "I focus on the problem, not the person. I listen to their perspective first, then share mine with concrete examples. If we can't agree, I suggest we prototype both approaches or bring in a third opinion."
   },
   {
-    "title": "Why do you want to join our company?",
-    "content": "I have been following your company's product development and I am impressed by your engineering culture. I believe my backend experience can contribute to your team while I continue to grow in system design and product development."
+    "title": "REST vs GraphQL",
+    "content": "REST is simpler and works well for CRUD-heavy services with predictable data shapes. GraphQL shines when clients need flexible queries and you want to avoid over-fetching. I choose based on the use case — REST for internal microservices, GraphQL for client-facing APIs with diverse consumers."
   },
   {
-    "title": "What are your strengths?",
-    "content": "My strengths include strong system design skills, experience with high-traffic distributed systems, and the ability to quickly understand business requirements and translate them into technical solutions."
+    "title": "Describe a challenging bug you solved",
+    "content": "We had intermittent 502 errors under load. Logs showed nothing. I added distributed tracing and found that a downstream service was hitting its connection pool limit. The fix was switching from short-lived connections to a persistent pool with proper timeout settings. Response errors dropped to zero."
   },
   {
-    "title": "What are your weaknesses?",
-    "content": "I sometimes spend too much time optimizing code for edge cases. I have been working on better prioritization by focusing on delivering value first and iterating on improvements."
+    "title": "Why are you leaving your current job?",
+    "content": "I've grown a lot in my current role, but I'm looking for new challenges — particularly in larger-scale systems and a team where I can both contribute and learn from senior engineers."
   },
   {
-    "title": "Career goals",
-    "content": "In the near term, I want to deepen my expertise in system architecture. Long term, I aim to grow into a technical lead role where I can mentor other engineers and drive architectural decisions."
+    "title": "How do you stay up to date with technology?",
+    "content": "I read engineering blogs from companies like Netflix and Uber, follow key developers on GitHub, and build small side projects to try new tools. I also attend local meetups when I can."
   }
 ]
