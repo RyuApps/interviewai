@@ -1,4 +1,4 @@
-# InterviewAI
+# Interview AI
 
 A macOS overlay app that listens to interview questions in real time and instantly displays your prepared answers.
 
