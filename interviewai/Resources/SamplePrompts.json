@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Self Introduction",
+    "content": "I am a software engineer with 5 years of experience in backend development, specializing in distributed systems and API design. I have worked on financial systems and e-commerce platforms, and I am passionate about building scalable, reliable software."
+  },
+  {
+    "title": "Why do you want to join our company?",
+    "content": "I have been following your company's product development and I am impressed by your engineering culture. I believe my backend experience can contribute to your team while I continue to grow in system design and product development."
+  },
+  {
+    "title": "What are your strengths?",
+    "content": "My strengths include strong system design skills, experience with high-traffic distributed systems, and the ability to quickly understand business requirements and translate them into technical solutions."
+  },
+  {
+    "title": "What are your weaknesses?",
+    "content": "I sometimes spend too much time optimizing code for edge cases. I have been working on better prioritization by focusing on delivering value first and iterating on improvements."
+  },
+  {
+    "title": "Career goals",
+    "content": "In the near term, I want to deepen my expertise in system architecture. Long term, I aim to grow into a technical lead role where I can mentor other engineers and drive architectural decisions."
+  }
+]

@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+*.swp
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+DerivedData/
+build/
+
+# Dependencies
+.build/
+
+# IDE
+.idea/
+.vscode/
+.claude/
