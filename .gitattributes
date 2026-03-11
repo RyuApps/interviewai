@@ -1,0 +1,21 @@
+# Normalize line endings
+* text=auto
+
+# Swift sources
+*.swift text diff=swift
+
+# Xcode project files
+*.pbxproj binary merge=union
+*.xcworkspacedata text
+*.plist text
+
+# Resources
+*.json text
+*.md text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary

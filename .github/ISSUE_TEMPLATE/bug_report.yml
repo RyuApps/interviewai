@@ -1,0 +1,59 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please fill in as much detail as possible.
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS Version
+      placeholder: "e.g. macOS 15.3 Sequoia"
+    validations:
+      required: true
+
+  - type: input
+    id: xcode-version
+    attributes:
+      label: Xcode Version (if building from source)
+      placeholder: "e.g. Xcode 16.2"
+
+  - type: dropdown
+    id: audio-source
+    attributes:
+      label: Audio Source
+      options:
+        - System Audio
+        - Microphone
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What happened? What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Open the app
+        2. Start an interview
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console Logs
+      description: Paste relevant logs from Xcode Console (optional)
+      render: shell
