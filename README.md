@@ -136,3 +136,11 @@ interviewai/
 [MIT License](LICENSE) — free to use, modify, and distribute.
 
 [MIT 许可证](LICENSE)——可自由使用、修改和分发。
+
+## Download / 下载
+
+This is the open-source edition of InterviewAI. The App Store version is also available.
+
+这是 InterviewAI 的开源版本，同时也提供 App Store 版本。
+
+[![Download on the Mac App Store](https://img.shields.io/badge/Mac_App_Store-Download-blue?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/interview-ai-assistant/id6760328144)
